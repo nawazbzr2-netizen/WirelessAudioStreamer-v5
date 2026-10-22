@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/tvRole" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvMyIp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvSelectedPeer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvPeerList" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:minHeight="48dp" />
+
+        <EditText android:id="@+id/etRemoteIp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Remote IP" android:inputType="text" />
+        <EditText android:id="@+id/etManualIp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Manual IP" android:inputType="text" />
+
+        <Button android:id="@+id/btnScanDevices" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Scan" />
+
+        <Button android:id="@+id/btnMicOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mic Open" />
+        <Button android:id="@+id/btnMicStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mic Stop" />
+        <Button android:id="@+id/btnMicRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mic Record" />
+        <Button android:id="@+id/btnMicStopRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mic Stop Record" />
+
+        <Button android:id="@+id/btnBackCamOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Back Cam" />
+        <Button android:id="@+id/btnBackCamStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Back Cam Stop" />
+        <Button android:id="@+id/btnBackCamRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Back Cam Record" />
+
+        <Button android:id="@+id/btnFrontCamOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Front Cam" />
+        <Button android:id="@+id/btnFrontCamStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Front Cam Stop" />
+        <Button android:id="@+id/btnFrontCamRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Front Cam Record" />
+
+        <Button android:id="@+id/btnSysSoundOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sys Sound" />
+        <Button android:id="@+id/btnSysSoundStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sys Sound Stop" />
+        <Button android:id="@+id/btnSysMicOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sys Mic" />
+        <Button android:id="@+id/btnSysMicStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sys Mic Stop" />
+
+        <Button android:id="@+id/btnVoiceRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Voice Record" />
+        <Button android:id="@+id/btnVoiceStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Voice Stop" />
+
+        <Button android:id="@+id/btnScreenOpen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Screen" />
+        <Button android:id="@+id/btnScreenStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Screen Stop" />
+
+        <Button android:id="@+id/btnSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings" />
+        <Button android:id="@+id/btnSwitchRole" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Switch Role" />
+    </LinearLayout>
+</ScrollView>
