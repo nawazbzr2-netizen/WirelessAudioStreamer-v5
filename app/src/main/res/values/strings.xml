@@ -31,5 +31,6 @@
     <string name="manual_ip_hint">Manual IP (optional)</string>
     <string name="pin_hint">PIN (same on both phones)</string>
     <string name="a11y_service_description">Allows Wireless Audio Streamer to inject remote taps only when you enable remote control from a phone you pair with the same PIN. Used solely for screen-receive control between your devices.</string>
+    <string name="accessibility_service_description">Allows Wireless Audio Streamer to inject remote taps only when you enable remote control from a phone you pair with the same PIN. Used solely for screen-receive control between your devices.</string>
     <string name="a11y_setup_msg">Settings → Accessibility → Wireless Audio Streamer → ON.\n\nRequired for remote screen control (taps) on the Sender phone.</string>
 </resources>
