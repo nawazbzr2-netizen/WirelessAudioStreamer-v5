@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "WirelessAudioStreamer"
+rootProject.name = "WirelessAudioStreamer-v5"
 include(":app")
